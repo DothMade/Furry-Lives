@@ -1,0 +1,280 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    background: radial-gradient(#b1a18f,#e7bf90);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    display: flex;
+    width: 80px;
+    height: 80px;
+}
+
+nav a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+    transition: background-color 0.3s ease;
+}
+nav a:hover,
+nav a.active {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 10px;
+}
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: #fff;
+    font-weight: 700;
+}
+section:nth-child(odd) {
+    background: radial-gradient(#b1a18f,#e7bf90);
+}
+
+#home {
+    background: radial-gradient(rgb(224, 209, 189), #e0be96)
+}
+
+.container{
+    overflow: hidden;
+    padding: 1rem 5rem;
+}
+
+.show{
+    display: flex;
+    gap: 250px;
+}
+.show .text{
+    padding-top: 4rem;
+}
+.text h2{
+    margin-top: 20%;
+    font-size: 4rem;
+    color: black;
+}
+.text p{
+    margin-top: -25%;
+    font-size: medium;
+    font-weight: 400;
+    color: black;
+}
+
+
+
+.content {
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin-top: 5rem;
+    margin-top: 80px;
+    padding: 30px 0;
+    color:black;
+
+}
+
+.content h1 {
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+
+.content h3 {
+    font-size: 1.5rem;
+}
+
+.content p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.cart-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 5rem;
+    column-gap: 100px;
+    place-items: center;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.cart-item{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.cart-cri{
+    width: 150px;
+    height: 120px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    align-items: center;
+}
+
+.cart-cri img {
+    width: 75px;
+    height: 75px;
+}
+
+.c1 {
+    width: 75px;
+    height: 75px;
+}
+
+.c2 {
+    width: 75px;
+    height: 75px;
+}
+
+.c3 {
+    width: 75px;
+    height: 75px;
+}
+
+.c4 {
+    width: 75px;
+    height: 75px;
+}
+.c5{
+    width: 75px;
+    height: 75px;
+}
+.c6 {
+    width: 75px;
+    height: 75px;
+}
+
+#repay {
+    background: radial-gradient(rgb(224, 209, 189), #e0be96)
+}
+
+.lovepets {
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin-top: 5rem;
+    color: black;
+    text-align:center;
+}
+
+.lovepets h1 {
+    margin-top: auto;
+    font-size: 2rem;
+}
+
+.lovepets p {
+    display: flex;
+    margin-top: -5%;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align:center;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 5rem;
+    column-gap: 100px;
+    place-items: center;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.container2 img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dev {
+    overflow: hidden;
+    padding: 1rem 5rem;
+    color: black;
+    display: grid;
+    align-items:center;
+    padding: 30px 0;
+    justify-content: center; 
+}
+
+.show2{
+    display: flex;
+    gap: 250px;
+}
+.show2 .text2{
+    align-items: center;
+}
+.text2 h1{
+    margin-top: 20%;
+    font-size: 3rem;
+    color: black;
+    align-items: center;
+}
+.text2 h2{
+    margin-top: -25%;
+    font-size: 2rem;
+    font-weight: 400;
+    color: black;
+    align-items: center;
+}
+
+.pic img {
+    border-radius: 50%;
+    height: 25rem;
+    width: 25rem;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: radial-gradient(rgb(224, 209, 189), #e0be96);
+    color: black;
+  }
+
+footer h3 {
+    font-size: 1.5rem;
+}
+
+.contactIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactIcons img {
+    width: 40px; 
+    height: 40px; 
+    margin: 0 10px; 
+    transition: transform 0.3s ease-in-out; 
+    color:#050505;
+}
+
+.contactIcons img:hover {
+    transform: scale(1.2); 
+}
